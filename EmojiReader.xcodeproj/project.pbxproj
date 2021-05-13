@@ -18,6 +18,7 @@
 		E52D670924E42D2300B6CDEA /* NewEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D670824E42D2300B6CDEA /* NewEmojiTableViewController.swift */; };
 		E5CD353C264D384C000E9BF6 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD353A264D384C000E9BF6 /* Screenshot01.png */; };
 		E5CD353D264D384C000E9BF6 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD353B264D384C000E9BF6 /* Screenshot02.png */; };
+		E5CD3540264D3A39000E9BF6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E5CD353F264D3A39000E9BF6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E52D670824E42D2300B6CDEA /* NewEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmojiTableViewController.swift; sourceTree = "<group>"; };
 		E5CD353A264D384C000E9BF6 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		E5CD353B264D384C000E9BF6 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		E5CD353F264D3A39000E9BF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				E52D66F724E40D3800B6CDEA /* Assets.xcassets */,
 				E52D66F924E40D3800B6CDEA /* LaunchScreen.storyboard */,
 				E52D66FC24E40D3800B6CDEA /* Info.plist */,
+				E5CD353F264D3A39000E9BF6 /* README.md */,
 			);
 			path = EmojiReader;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5CD3540264D3A39000E9BF6 /* README.md in Resources */,
 				E52D66FB24E40D3800B6CDEA /* LaunchScreen.storyboard in Resources */,
 				E52D66F824E40D3800B6CDEA /* Assets.xcassets in Resources */,
 				E5CD353C264D384C000E9BF6 /* Screenshot01.png in Resources */,
