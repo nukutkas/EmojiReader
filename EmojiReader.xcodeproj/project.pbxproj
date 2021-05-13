@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E52D66EF24E40D3700B6CDEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D66EE24E40D3700B6CDEA /* AppDelegate.swift */; };
 		E52D66F124E40D3700B6CDEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D66F024E40D3700B6CDEA /* SceneDelegate.swift */; };
-		E52D66F324E40D3700B6CDEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D66F224E40D3700B6CDEA /* ViewController.swift */; };
 		E52D66F624E40D3700B6CDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52D66F424E40D3700B6CDEA /* Main.storyboard */; };
 		E52D66F824E40D3800B6CDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52D66F724E40D3800B6CDEA /* Assets.xcassets */; };
 		E52D66FB24E40D3800B6CDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52D66F924E40D3800B6CDEA /* LaunchScreen.storyboard */; };
@@ -17,13 +16,14 @@
 		E52D670524E4179E00B6CDEA /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D670424E4179E00B6CDEA /* EmojiTableViewCell.swift */; };
 		E52D670724E41A5E00B6CDEA /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D670624E41A5E00B6CDEA /* EmojiModel.swift */; };
 		E52D670924E42D2300B6CDEA /* NewEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D670824E42D2300B6CDEA /* NewEmojiTableViewController.swift */; };
+		E5CD353C264D384C000E9BF6 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD353A264D384C000E9BF6 /* Screenshot01.png */; };
+		E5CD353D264D384C000E9BF6 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD353B264D384C000E9BF6 /* Screenshot02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E52D66EB24E40D3700B6CDEA /* EmojiReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52D66EE24E40D3700B6CDEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E52D66F024E40D3700B6CDEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E52D66F224E40D3700B6CDEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E52D66F524E40D3700B6CDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E52D66F724E40D3800B6CDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E52D66FA24E40D3800B6CDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +32,8 @@
 		E52D670424E4179E00B6CDEA /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
 		E52D670624E41A5E00B6CDEA /* EmojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
 		E52D670824E42D2300B6CDEA /* NewEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmojiTableViewController.swift; sourceTree = "<group>"; };
+		E5CD353A264D384C000E9BF6 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		E5CD353B264D384C000E9BF6 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				E52D66EE24E40D3700B6CDEA /* AppDelegate.swift */,
+				E5CD3538264D3631000E9BF6 /* Screenshots */,
 				E52D66F024E40D3700B6CDEA /* SceneDelegate.swift */,
-				E52D66F224E40D3700B6CDEA /* ViewController.swift */,
 				E52D670624E41A5E00B6CDEA /* EmojiModel.swift */,
 				E52D670224E40FD600B6CDEA /* EmojiTableViewController.swift */,
 				E52D670824E42D2300B6CDEA /* NewEmojiTableViewController.swift */,
@@ -77,6 +79,15 @@
 				E52D66FC24E40D3800B6CDEA /* Info.plist */,
 			);
 			path = EmojiReader;
+			sourceTree = "<group>";
+		};
+		E5CD3538264D3631000E9BF6 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E5CD353A264D384C000E9BF6 /* Screenshot01.png */,
+				E5CD353B264D384C000E9BF6 /* Screenshot02.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,7 +117,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Nikita Kochetov";
 				TargetAttributes = {
 					E52D66EA24E40D3700B6CDEA = {
@@ -139,6 +150,8 @@
 			files = (
 				E52D66FB24E40D3800B6CDEA /* LaunchScreen.storyboard in Resources */,
 				E52D66F824E40D3800B6CDEA /* Assets.xcassets in Resources */,
+				E5CD353C264D384C000E9BF6 /* Screenshot01.png in Resources */,
+				E5CD353D264D384C000E9BF6 /* Screenshot02.png in Resources */,
 				E52D66F624E40D3700B6CDEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,7 +164,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52D670324E40FD600B6CDEA /* EmojiTableViewController.swift in Sources */,
-				E52D66F324E40D3700B6CDEA /* ViewController.swift in Sources */,
 				E52D670724E41A5E00B6CDEA /* EmojiModel.swift in Sources */,
 				E52D670524E4179E00B6CDEA /* EmojiTableViewCell.swift in Sources */,
 				E52D670924E42D2300B6CDEA /* NewEmojiTableViewController.swift in Sources */,
@@ -208,6 +220,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -268,6 +281,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
