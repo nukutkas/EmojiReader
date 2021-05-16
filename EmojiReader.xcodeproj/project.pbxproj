@@ -68,20 +68,68 @@
 		E52D66ED24E40D3700B6CDEA /* EmojiReader */ = {
 			isa = PBXGroup;
 			children = (
-				E52D66EE24E40D3700B6CDEA /* AppDelegate.swift */,
+				E5A13650265196FB0083BAD7 /* Supporting files */,
 				E5CD3538264D3631000E9BF6 /* Screenshots */,
-				E52D66F024E40D3700B6CDEA /* SceneDelegate.swift */,
-				E52D670624E41A5E00B6CDEA /* EmojiModel.swift */,
-				E52D670224E40FD600B6CDEA /* EmojiTableViewController.swift */,
-				E52D670824E42D2300B6CDEA /* NewEmojiTableViewController.swift */,
-				E52D670424E4179E00B6CDEA /* EmojiTableViewCell.swift */,
-				E52D66F424E40D3700B6CDEA /* Main.storyboard */,
-				E52D66F724E40D3800B6CDEA /* Assets.xcassets */,
-				E52D66F924E40D3800B6CDEA /* LaunchScreen.storyboard */,
-				E52D66FC24E40D3800B6CDEA /* Info.plist */,
+				E5A13653265197110083BAD7 /* Model */,
+				E5A136552651971F0083BAD7 /* View Controllers */,
+				E5A136572651972B0083BAD7 /* View */,
+				E5A13659265197330083BAD7 /* Storyboards */,
+				E5A1365A265197390083BAD7 /* Sources */,
 				E5CD353F264D3A39000E9BF6 /* README.md */,
 			);
 			path = EmojiReader;
+			sourceTree = "<group>";
+		};
+		E5A13650265196FB0083BAD7 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E52D66EE24E40D3700B6CDEA /* AppDelegate.swift */,
+				E52D66F024E40D3700B6CDEA /* SceneDelegate.swift */,
+				E52D66FC24E40D3800B6CDEA /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E5A13653265197110083BAD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E52D670624E41A5E00B6CDEA /* EmojiModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5A136552651971F0083BAD7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E52D670224E40FD600B6CDEA /* EmojiTableViewController.swift */,
+				E52D670824E42D2300B6CDEA /* NewEmojiTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E5A136572651972B0083BAD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E52D670424E4179E00B6CDEA /* EmojiTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5A13659265197330083BAD7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E52D66F424E40D3700B6CDEA /* Main.storyboard */,
+				E52D66F924E40D3800B6CDEA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E5A1365A265197390083BAD7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E52D66F724E40D3800B6CDEA /* Assets.xcassets */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		E5CD3538264D3631000E9BF6 /* Screenshots */ = {
@@ -320,7 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = EmojiReader/Info.plist;
+				INFOPLIST_FILE = "EmojiReader/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = EmojiReader/Info.plist;
+				INFOPLIST_FILE = "EmojiReader/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
