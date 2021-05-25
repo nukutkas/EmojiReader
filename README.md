@@ -1,6 +1,6 @@
 # EmojiReader
 
-Emoji app for testing UITableViewController.
+Emoji app for practice  UITableViewController.
 
 # Installation
 
